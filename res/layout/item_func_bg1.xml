@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <ImageButton
+        android:id="@+id/func_bg1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/item_click_bg1"
+        android:padding="10dp"
+        android:scaleType="fitCenter"
+        android:contentDescription="@string/image_button" />
+
+</LinearLayout>

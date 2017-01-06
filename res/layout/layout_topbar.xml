@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="#d0000000"
+    android:paddingBottom="10dp"
+    android:paddingEnd="5dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="5dp"
+    android:paddingStart="0dp"
+    android:paddingTop="10dp" >
+
+    <ImageButton
+        android:id="@+id/top_back"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center_vertical"
+        android:background="#00ffffff"
+        android:scaleType="centerInside"
+        android:src="@drawable/back"
+        android:contentDescription="@string/image_button" />
+
+    <ImageView
+        android:id="@+id/top_divider"
+        android:layout_width="2dp"
+        android:layout_height="30dp"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center_vertical"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_toRightOf="@id/top_back"
+        android:layout_toEndOf="@id/top_back"
+        android:background="#ff505050"
+        android:contentDescription="@string/image_view" />
+
+    <TextView
+        android:id="@+id/top_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center_vertical"
+        android:layout_toEndOf="@id/top_divider"
+        android:layout_toRightOf="@id/top_divider"
+        android:textColor="#ffffffff"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/top_ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="#ff008000"
+        android:text="@string/finish"
+        android:textColor="#ffffffff"
+        android:textSize="18sp" />
+
+</RelativeLayout>

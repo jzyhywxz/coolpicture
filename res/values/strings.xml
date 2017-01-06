@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CoolPicture</string>
+    <string name="image_button">ImageButton</string>
+    <string name="image_view">ImageView</string>
+    <string name="finish">完成</string>
+    <string name="switch_on">开启</string>
+    <string name="switch_off">关闭</string>
+
+</resources>

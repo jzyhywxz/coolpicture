@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.zzw.coolpicture.MainActivity" >
+
+    <include
+        android:id="@+id/main_topbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        layout="@layout/layout_topbar"
+        android:visibility="gone" />
+    
+    <com.zzw.coolpicture.view.Graphic2DView
+        android:id="@+id/g2d_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/main_btmbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+</LinearLayout>

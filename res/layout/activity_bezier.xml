@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.zzw.coolpicture.view.BezierView
+        android:id="@+id/bezier_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:scaleType="fitCenter"
+        android:src="@drawable/cffffff" />
+
+    <LinearLayout
+        android:id="@+id/bezier_btmbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" >
+
+        <ImageButton
+            android:id="@+id/bezier_animator"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_weight="1"
+            android:background="@drawable/item_click_bg1"
+            android:padding="10dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/animation"
+            android:contentDescription="@string/image_button" />
+
+        <ImageButton
+            android:id="@+id/bezier_contpoint"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_weight="1"
+            android:background="@drawable/item_click_bg1"
+            android:padding="10dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/contpoint"
+            android:contentDescription="@string/image_button" />
+
+        <ImageButton
+            android:id="@+id/bezier_contline"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_weight="1"
+            android:background="@drawable/item_click_bg1"
+            android:padding="10dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/contline"
+            android:contentDescription="@string/image_button" />
+
+        <ImageButton
+            android:id="@+id/bezier_assiline"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_weight="1"
+            android:background="@drawable/item_click_bg1"
+            android:padding="10dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/assiline"
+            android:contentDescription="@string/image_button" />
+
+        <ImageButton
+            android:id="@+id/bezier_clear"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_weight="1"
+            android:background="@drawable/item_click_bg1"
+            android:padding="10dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/clear"
+            android:contentDescription="@string/image_button" />
+
+        <ImageButton
+            android:id="@+id/bezier_save"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/item_click_bg1"
+            android:padding="10dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/save"
+            android:contentDescription="@string/image_button" />
+
+    </LinearLayout>
+    
+</LinearLayout>
